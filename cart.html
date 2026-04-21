@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Shopping Cart</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1 class="logo">Macrotough Computers</h1>
+            <nav>
+                <a href="home.html">Home</a>
+                <a href="desktops.html">Desktops</a>
+                <a href="laptops.html">Laptops</a>
+                <a href="accessories.html">Accessories</a>
+                <a href="support.html">Support</a>
+                <a href="cart.html" class="cart-icon">🛒<span id="cart-count">0</span></a>
+            </nav>
+        </header>
+
+        <main>
+            <h2 class=cart-title>Your Cart</h2>
+            <ul class="cart-items-list" id="cart-items-list"></ul>
+            <div class="cart-total">💰 Total: €<span id="cart-total">0.00</span></div>
+            <button id="clear-cart-btn">Clear Cart</button>
+        </main>
+
+        <footer>
+            <p>© 2026 Macrotough Computers</p>
+        </footer>
+    </body>
+</html>

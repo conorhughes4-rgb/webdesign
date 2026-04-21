@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Support</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1 class="logo">Macrotough Computers</h1>
+            <nav>
+                <a href="home.html">Home</a>
+                <a href="desktops.html">Desktops</a>
+                <a href="laptops.html">Laptops</a>
+                <a href="accessories.html">Accessories</a>
+                <a href="support.html">Support</a>
+                <a href="cart.html" class="cart-icon">🛒<span id="cart-count">0</span></a>
+            </nav>
+        </header>
+
+        <section class="introduction">
+            <h2>How can we help?</h2>
+            <p>Browse our frequently asked questions or send us a message below.</p>
+        </section>
+
+        <div class="support-body">
+            <div class="faq-section">
+                <h3>Frequently asked questions</h3>
+                <div class="faq-item">
+                    <div class="faq-question">Do you offer warranties?</div>
+                    <div class="faq-answer">Nope, its all on you</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">What payment methods do you accept?</div>
+                    <div class="faq-answer">Bitcoin</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">How long does delivery take?</div>
+                    <div class="faq-answer">2 months</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Can I return a product?</div>
+                    <div class="faq-answer">No, not allowed</div>
+                </div>
+            </div>
+
+            <div class="contact-section">
+                <h3>Get in touch</h3>
+
+                <form>
+                    <div class="form-group">
+                        <label for="name">Your name</label>
+                        <input type="text" id="name" placeholder="John Smith" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" id="email" placeholder="john@example.com" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" placeholder="How can we help you?" required></textarea>
+                    </div>
+                    <button type="submit">Send message</button>
+                    <div class="success-msg" id="success-msg">Thanks! We'll get back to you within 24 days.</div>
+                </form>
+            </div>
+        </div>
+
+        <footer>
+            <p>© 2026 Macrotough Computers</p>
+        </footer>
+    </body>
+</html>
